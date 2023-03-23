@@ -1,0 +1,96 @@
+.section-handbook {
+    height: 350px;
+
+    .section-container {
+        margin        : 0 230px;
+        display       : flex;
+        flex-direction: column;
+
+        .section-header {
+            height       : 60px;
+            margin-bottom: 30px;
+            padding-top  : 30px;
+
+            .title-section {
+                font-size  : 30px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                float         : right;
+                padding       : 10px 15px;
+                border        : none;
+                outline       : none;
+                display       : block;
+                color         : black;
+                background    : #ebebeb;
+                cursor        : pointer;
+                text-transform: uppercase;
+
+                &:hover {
+                    color     : #fff;
+                    background: #f7d800;
+                }
+            }
+        }
+
+        .section-body {
+            margin: 20px 0px;
+
+            .section-customize {
+                display: flex !important;
+
+                .hb-image {
+                    background         : url('../../../assets/handbook/kham-tieu-hoa-hung-viet.png');
+                    width              : 278px;
+                    height             : 150px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    background-size    : cover;
+                    background-color   : #eee;
+                    cursor             : pointer;
+                }
+
+                .hb-image2 {
+                    background         : url('../../../assets/handbook/trung-tam-benh-tri-ha-noi-so-1.png');
+                    width              : 278px;
+                    height             : 150px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    background-size    : cover;
+                    background-color   : #eee;
+                    cursor             : pointer;
+                }
+
+                .hb-image3 {
+                    background         : url('../../../assets/handbook/benh-vien-kham-gan-tphcm.jpg');
+                    width              : 278px;
+                    height             : 150px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    background-size    : cover;
+                    background-color   : #eee;
+                    cursor             : pointer;
+                }
+
+                .hb-image4 {
+                    background         : url('../../../assets/handbook/bac-si-kham-gan-gioi-tphcm.jpg');
+                    width              : 278px;
+                    height             : 150px;
+                    background-position: center center;
+                    background-repeat  : no-repeat;
+                    background-size    : cover;
+                    background-color   : #eee;
+                    cursor             : pointer;
+                }
+
+                h3 {
+                    margin       : 50px 10px;
+                    font-size    : medium;
+                    font-weight  : 700;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}
